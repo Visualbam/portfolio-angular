@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-angular",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Bruce McElroy"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "jquery": "~2.2.0",
+    "angular-route": "~1.4.9"
+  }
+}

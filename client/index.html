@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="en" ng-app="app">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application</title>
+    <link rel="stylesheet" href="./public/main.css">
+</head>
+
+<body>
+
+    <section class="main">
+        <div class="row">
+            <div class="medium-12 columns">
+                <div ng-view></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+
+    <!-- core -->
+    <script src="app/app.module.js"></script>
+</body>
+
+</html>
