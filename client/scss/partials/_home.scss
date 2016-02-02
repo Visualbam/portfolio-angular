@@ -15,10 +15,22 @@
         img {
             border: 1rem solid $navy;
         }
+
     }
 
     .details {
         margin: 10rem 0;
+    }
+
+    .social {
+        display: flex;
+        font-size: 3rem;
+        margin: 0 auto;
+        justify-content: center;
+
+        a {
+            color: $secondary;
+        }
     }
 
     .img-container {
