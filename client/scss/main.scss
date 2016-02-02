@@ -1,8 +1,8 @@
 @import '../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
 @import '_variables';
-@import '_navbar';
 
-@import '_home';
+@import 'partials/_navbar';
+@import 'partials/_home';
 
 body {
     background: $navy;
