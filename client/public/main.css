@@ -7422,6 +7422,9 @@ button.close {
 .home .about img {
   border: 1rem solid #12171C;
 }
+.home .details {
+  margin: 10rem 0;
+}
 .home .img-container {
   position: absolute;
   top: -87.5px;
