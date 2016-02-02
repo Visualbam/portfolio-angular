@@ -16,13 +16,11 @@
 
 
     <section class="details">
-        <div class="card">
+        <div class="card" ng-repeat="detail in vm.details">
             <div class="content">
-                <h4>Design</h4>
-                <p>
-                    Understanding core design principles is key to expanding your capabilities. My degree is in design but I consider it a skillset
-                    in my developer toolbox.
-                </p>
+                <h4>{{detail.title}}</h4>
+                <p>{{detail.content}}</p>
+                <img src="{{detail.image}}" alt="">
             </div>
         </div>
     </section>

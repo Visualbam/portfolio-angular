@@ -5,12 +5,12 @@
         .module('app')
         .controller('HomeCtrl', HomeCtrl);
 
-    // HomeCtrl.$inject = [];
+    HomeCtrl.$inject = ['detailRepo'];
 
-    function HomeCtrl() {
+    function HomeCtrl(detailRepo) {
         var vm = this;
 
-        vm.title = 'Hello';
+        vm.details = detailRepo.list;
 
         return vm;
     }
