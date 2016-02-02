@@ -30,7 +30,7 @@
         text-transform: uppercase;
         font-weight: bold;
 
-        &:hover{
+        &:hover {
             color: white;
             background: $primary;
 
@@ -38,6 +38,10 @@
                 background: white;
                 color: $primary;
             }
+        }
+
+        &:focus {
+            color: white!important;
         }
 
         @media (min-width: $screen-sm-min) {

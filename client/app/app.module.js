@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app', ['ngRoute'])
+        .module('app', ['ngRoute', 'angularMoment'])
         .config(routeConfig);
 
     routeConfig.$inject = ['$routeProvider'];
@@ -13,6 +13,12 @@
                 title: 'Home',
                 templateUrl: 'app/home/home.html',
                 controller: 'HomeCtrl',
+                controllerAs: 'vm'
+            })
+            .when('/resume', {
+                title: 'Resume',
+                templateUrl: 'app/Resume/Resume.html',
+                controller: 'ResumeCtrl',
                 controllerAs: 'vm'
             })
             .otherwise({ redirectTo: '/' });

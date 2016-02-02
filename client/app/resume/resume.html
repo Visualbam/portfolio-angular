@@ -1,0 +1,23 @@
+<div class="resume">
+
+    <section class="positions">
+        <div class="row">
+            <div class="col-xs-12 col-md-6" ng-repeat="position in vm.positions">
+                <div class="card">
+                    <header>
+                        <div class="img-container">
+                            <img src="{{positiion.logo}}" alt="">
+                            <h2>{{position.company}}</h2>
+                        </div>
+                    </header>
+                    <div class="content">
+                        <h4>{{position.title}}</h4>
+                        <p>{{vm.time}}</p>
+                        <time> {{vm.time | amDateFormat: 'h:mm a'}} </time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
