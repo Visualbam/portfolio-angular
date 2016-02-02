@@ -7358,6 +7358,11 @@ button.close {
   width: 125px;
   margin: 0 1.75rem;
 }
+@media (min-width: 768px) {
+  .navbar.navbar-default img {
+    margin: 0;
+  }
+}
 .navbar.navbar-default li a {
   color: white;
   padding: 2rem;
@@ -7377,7 +7382,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .navbar.navbar-default li a {
-    border: 2px solid white;
+    border: 3px solid white;
     border-radius: 5px;
     margin-left: 2.5rem;
     padding: 1rem 3rem;
@@ -7395,13 +7400,66 @@ button.close {
 }
 .navbar.navbar-default .icon-bar {
   background-color: white;
-  height: 2.25px;
+  height: 3.25px;
   width: 3rem;
 }
 .navbar.navbar-default .icon-bar + .icon-bar {
-  margin-top: 5px;
+  margin-top: 4.5px;
+}
+
+.home .intro {
+  background: #1D2227;
+  position: relative;
+  margin-top: 12rem;
+  padding: 2rem;
+  padding-top: 10rem;
+}
+.home .about {
+  text-align: center;
+  max-width: 525px;
+  margin: 0 auto;
+}
+.home .img-container {
+  position: absolute;
+  top: -87.5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 175px;
+}
+.home img {
+  border: 1rem solid #12171C;
 }
 
 body {
   background: #12171C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-weight: 400;
+}
+
+p {
+  color: #787D83;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+img.circle {
+  border-radius: 50%;
+}
+
+.primary-text {
+  color: #FBBA5E;
+}
+
+.card {
+  background: #1D2227;
+  padding: 2rem;
+  border-top: 1px solid #FBBA5E;
+  margin: 2rem 0;
 }

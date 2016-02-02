@@ -1,0 +1,28 @@
+.home {
+    .intro {
+        background: $lightnavy;
+        position: relative;
+        margin-top: 12rem;
+        padding: 2rem;
+        padding-top: 10rem;
+    }
+
+    .about {
+        text-align: center;
+        max-width: 525px;
+        margin: 0 auto;
+    }
+
+    .img-container {
+        position: absolute;
+        top: -87.5px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 175px;
+    }
+
+    img {
+        border: 1rem solid $navy;
+    }
+}

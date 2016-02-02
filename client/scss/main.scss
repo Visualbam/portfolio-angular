@@ -2,6 +2,38 @@
 @import '_variables';
 @import '_navbar';
 
+@import '_home';
+
 body {
     background: $navy;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-weight: 400;
+}
+
+p {
+    color: $slate;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+
+    &.circle {
+        border-radius: 50%;
+    }
+}
+
+.primary-text {
+    color: $primary;
+}
+
+.card {
+    background: $lightnavy;
+    padding: 2rem;
+    border-top: 1px solid $primary;
+    margin: 2rem 0;
 }
