@@ -10,19 +10,50 @@
 
 <body>
 
-    <section class="main">
-        <div class="row">
-            <div class="medium-12 columns">
-                <div ng-view></div>
+    <!--<div class="navbar-fixed-top">-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="./public/img/logo_2x.png" alt="">
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </section>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--</div>-->
+
+    <div class="container">
+        <section class="main">
+            <div class="row">
+                <div class="medium-12 columns">
+                    <div ng-view></div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
 
     <!-- core -->
     <script src="app/app.module.js"></script>

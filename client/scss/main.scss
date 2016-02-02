@@ -1,3 +1,7 @@
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import '_variables';
+@import '_navbar';
+
 body {
-    background: green!important;
+    background: $navy;
 }
