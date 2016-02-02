@@ -9,7 +9,12 @@
 
     function routeConfig($routeProvider) {
         $routeProvider
-            .when('/', { templateUrl: 'app/home/home.html', title: 'Home' })
+            .when('/', {
+                title: 'Home',
+                templateUrl: 'app/home/home.html',
+                controller: 'HomeCtrl',
+                controllerAs: 'vm'
+            })
             .otherwise({ redirectTo: '/' });
     }
 
