@@ -11,7 +11,7 @@
 <body>
 
     <!--<div class="navbar-fixed-top">-->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" ng-controller="NavBarCtrl as vm">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -28,9 +28,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#/">Home</a></li>
-                    <li><a href="#/resume">Resume</a></li>
-                    <li><a href="#/portfolio">Portfolio</a></li>
+                    <li ng-class="{ active: vm.isActive('/') }"><a href="#/">Home</a></li>
+                    <li ng-class="{ active: vm.isActive('/resume') }"><a href="#/resume">Resume</a></li>
+                    <li ng-class="{ active: vm.isActive('/portfolio') }"><a href="#/portfolio">Portfolio</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -55,6 +55,7 @@
 
     <!-- core -->
     <script src="app/app.module.js"></script>
+    <script src="app/shared/NavBarCtrl.js"></script>
 
     <!-- features -->
     <script src="app/home/HomeCtrl.js"></script>
