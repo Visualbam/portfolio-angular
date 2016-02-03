@@ -11,7 +11,7 @@
 
         positionRepo.list = [
             {
-                logo: null,
+                logo: 'public/img/acatar.png',
                 company: 'Acatar',
                 location: 'Pittsburgh, PA',
                 title: 'Software Engineer',
@@ -23,7 +23,7 @@
                 ]
             },
             {
-                logo: null,
+                logo: 'public/img/brandingbrand.png',
                 company: 'Branding Brand',
                 location: 'Pittsburgh, PA',
                 title: 'Software Engineer',
@@ -35,7 +35,7 @@
                 ]
             },
             {
-                logo: null,
+                logo: 'public/img/ppg.png',
                 company: 'PPG Industries',
                 location: 'Pittsburgh, PA',
                 title: 'Frontend Developer',
@@ -47,7 +47,7 @@
                 ]
             },
             {
-                logo: null,
+                logo: 'public/img/kolano.png',
                 company: 'Kolano Design',
                 location: 'Pittsburgh, PA',
                 title: 'Graphic Designer / Frontend Developer',
