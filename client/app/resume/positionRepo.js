@@ -50,7 +50,7 @@
                 logo: 'public/img/kolano.png',
                 company: 'Kolano Design',
                 location: 'Pittsburgh, PA',
-                title: 'Graphic Designer / Frontend Developer',
+                title: 'Graphic Designer',
                 startDate: new Date('August 2011'),
                 endDate: new Date('August 2012'),
                 responsibilities: [
