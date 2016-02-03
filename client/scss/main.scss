@@ -4,6 +4,7 @@
 
 @import 'partials/_navbar';
 @import 'partials/_home';
+@import 'partials/_resume';
 
 body {
     background: $navy;
@@ -32,7 +33,7 @@ img {
     color: $primary;
 }
 
-.card {
+.card .content {
     background: $lightnavy;
     padding: 2rem;
     border-top: 1px solid $primary;

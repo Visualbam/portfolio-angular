@@ -2,18 +2,23 @@
 
     <section class="positions">
         <div class="row">
-            <div class="col-xs-12 col-md-6" ng-repeat="position in vm.positions">
-                <div class="card">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <h1>Work Experience</h1>
+                <div class="card" ng-repeat="position in vm.positions">
                     <header>
+                        <div class="company">
+                            <h3>{{position.company}}</h3>
+                            <span>{{position.location}}</span>
+                        </div>
                         <div class="img-container">
                             <img src="{{positiion.logo}}" alt="">
-                            <h2>{{position.company}}</h2>
                         </div>
                     </header>
                     <div class="content">
                         <h4>{{position.title}}</h4>
-                        <p>{{vm.time}}</p>
-                        <time> {{vm.time | amDateFormat: 'h:mm a'}} </time>
+                        <ul ng-repeat="detail in position.responsibilities">
+                            <li>{{detail}}</li>
+                        </ul>
                     </div>
                 </div>
             </div>

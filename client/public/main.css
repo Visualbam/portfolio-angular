@@ -10100,7 +10100,8 @@ button.close {
   }
 }
 .navbar.navbar-default li a:focus {
-  color: white !important;
+  color: #FBBA5E;
+  background: white;
 }
 @media (min-width: 768px) {
   .navbar.navbar-default li a {
@@ -10167,11 +10168,44 @@ button.close {
 .home .card {
   position: relative;
 }
+.home .card p {
+  position: relative;
+  z-index: 1;
+}
 .home .card img {
   position: absolute;
   right: 2.5rem;
   top: 2.5rem;
   width: 75px;
+}
+
+.resume .positions header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.resume .positions .company h3 {
+  color: #FBBA5E;
+  margin: 0 0 0.5rem;
+}
+.resume .positions .company span {
+  color: white;
+}
+.resume .positions .img-container {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5px;
+  background: gray;
+  margin-right: 2rem;
+}
+.resume .positions .card {
+  margin: 5rem 0;
+}
+.resume .positions .card ul {
+  list-style-type: none;
+  padding: 0;
+  color: #787D83;
 }
 
 body {
@@ -10200,7 +10234,7 @@ img.circle {
   color: #FBBA5E;
 }
 
-.card {
+.card .content {
   background: #1D2227;
   padding: 2rem;
   border-top: 1px solid #FBBA5E;

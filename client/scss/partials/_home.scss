@@ -45,6 +45,11 @@
     .card {
         position: relative;
 
+        p {
+            position: relative;
+            z-index: 1;
+        }
+
         img {
             position: absolute;
             right: 2.5rem;

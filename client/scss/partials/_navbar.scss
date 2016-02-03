@@ -41,7 +41,8 @@
         }
 
         &:focus {
-            color: white!important;
+            color: $primary;
+            background: white;
         }
 
         @media (min-width: $screen-sm-min) {

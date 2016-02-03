@@ -12,12 +12,6 @@
         vm.positions = positionRepo.list;
         vm.time = new Date();
 
-        angular.forEach(vm.positions, function (position) {
-            vm.positionDuration = function () {
-
-            }
-        })
-
         return vm;
     }
 })();
