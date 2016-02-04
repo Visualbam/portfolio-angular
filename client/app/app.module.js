@@ -17,7 +17,7 @@
             })
             .when('/resume', {
                 title: 'Resume',
-                templateUrl: 'app/Resume/Resume.html',
+                templateUrl: 'app/resume/resume.html',
                 controller: 'ResumeCtrl',
                 controllerAs: 'vm'
             })
