@@ -27,9 +27,16 @@
         font-size: 3rem;
         margin: 0 auto;
         justify-content: center;
+        box-sizing: border-box;
 
         a {
             color: $secondary;
+            border-top: 0.4rem solid transparent;
+
+            &:hover {
+                border-top: 0.4rem solid $primary;
+                background: none;
+            }
         }
     }
 
