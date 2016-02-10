@@ -29,8 +29,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li ng-class="{ active: vm.isActive('/') }"><a href="#/">Home</a></li>
-                    <li ng-class="{ active: vm.isActive('/resume') }"><a href="#/resume">Resume</a></li>
+                    <li ng-class="{ active: vm.isActive('/') }" ng-click="vm.toggleNav()"><a href="#/">Home</a></li>
+                    <li ng-class="{ active: vm.isActive('/resume') }" ng-click="vm.toggleNav()"><a href="#/resume">Resume</a></li>
                     <!--<li ng-class="{ active: vm.isActive('/portfolio') }"><a href="#/portfolio">Portfolio</a></li>-->
                 </ul>
             </div>
