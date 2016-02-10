@@ -38,3 +38,7 @@ img {
     border-top: 1px solid $primary;
     margin: 2rem 0;
 }
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: inherit;
+}

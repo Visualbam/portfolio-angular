@@ -35,33 +35,35 @@
         }
     }
 
-    li a {
-        color: white;
-        padding: 2rem;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: bold;
-
-        &:hover {
-            color: white;
-            background: $primary;
-
-            @media (min-width: $screen-sm-min) {
-                background: white;
-                color: $primary;
-            }
-        }
-
-        &:focus {
+    li {
+        &.active a {
             color: $primary;
             background: white;
         }
 
-        @media (min-width: $screen-sm-min) {
-            border: 3px solid white;
-            border-radius: 5px;
-            margin-left: 2.5rem;
-            padding: 1rem 3rem;
+        a {
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            &:hover {
+                color: white;
+                background: $primary;
+
+                @media (min-width: $screen-sm-min) {
+                    background: white;
+                    color: $primary;
+                }
+            }
+
+            @media (min-width: $screen-sm-min) {
+                border: 3px solid white;
+                border-radius: 5px;
+                margin-left: 2.5rem;
+                padding: 1rem 3rem;
+            }
         }
     }
 

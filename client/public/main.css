@@ -7375,6 +7375,10 @@ button.close {
     margin: 0;
   }
 }
+.navbar.navbar-default li.active a {
+  color: #FBBA5E;
+  background: white;
+}
 .navbar.navbar-default li a {
   color: white;
   padding: 2rem;
@@ -7391,10 +7395,6 @@ button.close {
     background: white;
     color: #FBBA5E;
   }
-}
-.navbar.navbar-default li a:focus {
-  color: #FBBA5E;
-  background: white;
 }
 @media (min-width: 768px) {
   .navbar.navbar-default li a {
@@ -7539,4 +7539,8 @@ img.circle {
   padding: 2rem;
   border-top: 1px solid #FBBA5E;
   margin: 2rem 0;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background: inherit;
 }
