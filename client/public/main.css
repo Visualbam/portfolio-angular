@@ -7516,6 +7516,12 @@ button.close {
   padding: 0;
   color: #787D83;
 }
+.resume .positions .card ul li {
+  margin: 1rem 0;
+}
+.resume .positions .card ul li:last-child {
+  margin-bottom: 0;
+}
 
 body {
   background: #12171C;

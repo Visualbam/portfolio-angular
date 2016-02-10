@@ -35,6 +35,14 @@
                 padding: 0;
                 color: $slate;
             }
+
+            ul li {
+                margin: 1rem 0;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
         }
     }
 }
