@@ -11,11 +11,11 @@
 
         vm.isActive = function (route) {
             return route === $location.path();
-        }
+        };
 
         vm.toggleNav = function () {
             $('.collapse').collapse('hide');
-        }
+        };
 
         return vm;
     }
