@@ -7338,11 +7338,11 @@ button.close {
   }
 }
 .navbar-nav {
-  margin: 18.5px -15px 0;
+  margin: 0 -15px 0;
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    margin: 0;
+    margin-top: 20px;
   }
 }
 
@@ -7358,9 +7358,12 @@ button.close {
   background: white;
 }
 
+.navbar-header {
+  line-height: 6;
+}
+
 .navbar.navbar-default {
   min-height: 85px;
-  padding-top: 2rem;
   background: #27214E url("../public/img/header-background.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -7410,6 +7413,7 @@ button.close {
 .navbar.navbar-default .navbar-toggle {
   border: none;
   background: none;
+  margin-top: 25px;
 }
 .navbar.navbar-default .navbar-toggle:hover {
   background: #FBBA5E;
