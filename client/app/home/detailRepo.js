@@ -6,10 +6,9 @@
         .factory('detailRepo', detailRepo);
 
     function detailRepo() {
-
         var detailRepo = {
             list: []
-        }
+        };
 
         detailRepo.list = [
             {
