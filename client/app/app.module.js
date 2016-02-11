@@ -21,6 +21,12 @@
                 controller: 'ResumeCtrl',
                 controllerAs: 'vm'
             })
+            .when('/portfolio', {
+                title: 'Portfolio',
+                templateUrl: 'app/portfolio/portfolio.html',
+                controller: 'PortfolioCtrl',
+                controllerAs: 'vm'
+            })
             .otherwise({ redirectTo: '/' });
     }
 

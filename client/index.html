@@ -31,7 +31,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li ng-class="{ active: vm.isActive('/') }" ng-click="vm.toggleNav()"><a href="#/">Home</a></li>
                     <li ng-class="{ active: vm.isActive('/resume') }" ng-click="vm.toggleNav()"><a href="#/resume">Resume</a></li>
-                    <!--<li ng-class="{ active: vm.isActive('/portfolio') }"><a href="#/portfolio">Portfolio</a></li>-->
+                    <li ng-class="{ active: vm.isActive('/portfolio') }" ng-click="vm.toggleNav()"><a href="#/portfolio">Portfolio</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -64,6 +64,9 @@
 
     <script src="app/resume/ResumeCtrl.js"></script>
     <script src="app/resume/positionRepo.js"></script>
+
+    <script src="app/portfolio/PortfolioCtrl.js"></script>
+    <script src="app/portfolio/portfolioRepo.js"></script>
 
 </body>
 
