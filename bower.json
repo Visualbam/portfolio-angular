@@ -23,8 +23,5 @@
     "moment": "^2.11.2",
     "font-awesome": "^4.5.0",
     "angular-moment": "^0.10.3"
-  },
-  "resolutions": {
-    "moment": "^2.11.1"
   }
 }
