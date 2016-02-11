@@ -16,6 +16,9 @@
                     </header>
                     <div class="content">
                         <h4>{{position.title}}</h4>
+                        <span class="duration">
+                            {{position.startDate | amDateFormat:'MMMM YYYY'}} — {{position.endDate | amDateFormat:'MMMM YYYY'}}
+                        </span>
                         <ul>
                             <li ng-repeat="detail in position.responsibilities">{{detail}}</li>
                         </ul>

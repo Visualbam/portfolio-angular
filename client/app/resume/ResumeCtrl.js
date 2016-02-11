@@ -1,3 +1,4 @@
+/* global moment */
 (function () {
 
     angular
@@ -10,7 +11,6 @@
         var vm = this;
 
         vm.positions = positionRepo.list;
-        vm.time = new Date();
 
         return vm;
     }

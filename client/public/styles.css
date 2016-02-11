@@ -7500,6 +7500,9 @@ button.close {
 .resume .positions .company span {
   color: white;
 }
+.resume .positions .duration {
+  color: white;
+}
 .resume .positions .img-container {
   width: 5rem;
   height: 5rem;
