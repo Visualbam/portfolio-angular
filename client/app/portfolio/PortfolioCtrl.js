@@ -5,12 +5,12 @@
         .module('app')
         .controller('PortfolioCtrl', PortfolioCtrl);
 
-    PortfolioCtrl.$inject = ['positionRepo'];
+    PortfolioCtrl.$inject = ['projectRepo'];
 
-    function PortfolioCtrl(positionRepo) {
+    function PortfolioCtrl(projectRepo) {
         var vm = this;
 
-        vm.positions = positionRepo.list;
+        vm.projects = projectRepo.list;
 
         return vm;
     }

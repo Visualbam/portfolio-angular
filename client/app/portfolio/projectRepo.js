@@ -9,7 +9,62 @@
             list: []
         };
 
-        projectRepo.list = [];
+        projectRepo.list = [
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            },
+            {
+                title: 'Hello world'
+            }
+        ];
 
         return projectRepo;
     }

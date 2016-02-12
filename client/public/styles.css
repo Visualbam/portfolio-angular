@@ -7526,6 +7526,16 @@ button.close {
   margin-bottom: 0;
 }
 
+.portfolio .item-wrapper {
+  background: #1D2227;
+  height: 250px;
+  margin-bottom: 2.5rem;
+  transition: all .25s ease-in-out;
+}
+.portfolio .item-wrapper:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+}
+
 body {
   background: #12171C;
 }
