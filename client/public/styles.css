@@ -7533,6 +7533,9 @@ button.close {
   margin-bottom: 0;
 }
 
+.portfolio {
+  padding-top: 1rem;
+}
 .portfolio .item-wrapper {
   background: #1D2227;
   height: 250px;
