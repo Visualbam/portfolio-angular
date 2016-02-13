@@ -7460,9 +7460,14 @@ button.close {
 .home .social a {
   color: #ED4D4D;
   border-top: 0.4rem solid transparent;
+  transition: all .25s ease-in-out;
+  border: 1px solid #191d21;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
 }
 .home .social a:hover {
-  border-top: 0.4rem solid #FBBA5E;
+  border: 1px solid #1D2227;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.12);
   background: none;
 }
 .home .img-container {

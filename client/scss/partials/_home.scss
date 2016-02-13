@@ -36,9 +36,14 @@
         a {
             color: $secondary;
             border-top: 0.4rem solid transparent;
+            transition: all .25s ease-in-out;
+            border: 1px solid darken($color: $lightnavy, $amount: 2%);
+            padding: 1rem 2rem;
+            margin: 0 1rem;
 
             &:hover {
-                border-top: 0.4rem solid $primary;
+                border: 1px solid $lightnavy;
+                box-shadow: 0 10px 20px rgba(#000, .15), 0 6px 6px rgba(#000, .12);
                 background: none;
             }
         }
