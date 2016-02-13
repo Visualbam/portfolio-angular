@@ -7354,7 +7354,7 @@ button.close {
 .navbar-default
 .navbar-nav >
 .active > a:focus {
-  color: #FBBA5E;
+  color: #ED4D4D;
   background: white;
 }
 
@@ -7379,7 +7379,7 @@ button.close {
   }
 }
 .navbar.navbar-default li.active a {
-  color: #FBBA5E;
+  color: #ED4D4D;
   background: white;
 }
 .navbar.navbar-default li a {
@@ -7388,15 +7388,17 @@ button.close {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1rem;
+  transition: all .25s ease-in-out;
 }
 .navbar.navbar-default li a:hover {
   color: white;
-  background: #FBBA5E;
+  background: #ED4D4D;
 }
 @media (min-width: 768px) {
   .navbar.navbar-default li a:hover {
     background: white;
-    color: #FBBA5E;
+    color: #ED4D4D;
   }
 }
 @media (min-width: 768px) {
@@ -7416,7 +7418,7 @@ button.close {
   margin-top: 25px;
 }
 .navbar.navbar-default .navbar-toggle:hover {
-  background: #FBBA5E;
+  background: none;
 }
 .navbar.navbar-default .icon-bar {
   background-color: white;

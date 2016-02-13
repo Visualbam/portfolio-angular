@@ -14,7 +14,7 @@
 .navbar-default
 .navbar-nav >
 .active > a:focus {
-    color: $primary;
+    color: $secondary;
     background: white;
 }
 
@@ -40,7 +40,7 @@
 
     li {
         &.active a {
-            color: $primary;
+            color: $secondary;
             background: white;
         }
 
@@ -50,14 +50,16 @@
             text-align: center;
             text-transform: uppercase;
             font-weight: bold;
+            font-size: 1rem;
+            transition: all .25s ease-in-out;
 
             &:hover {
                 color: white;
-                background: $primary;
+                background: $secondary;
 
                 @media (min-width: $screen-sm-min) {
                     background: white;
-                    color: $primary;
+                    color: $secondary;
                 }
             }
 
@@ -80,7 +82,7 @@
         margin-top: 25px;
 
         &:hover {
-            background: $primary;
+            background: none;
         }
     }
 
