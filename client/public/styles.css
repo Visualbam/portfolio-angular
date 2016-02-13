@@ -7538,6 +7538,7 @@ button.close {
 }
 .portfolio .item-wrapper {
   background: #1D2227;
+  position: relative;
   height: 250px;
   margin-bottom: 2.5rem;
   transition: all .25s ease-in-out;
@@ -7548,6 +7549,21 @@ button.close {
 .portfolio .item-wrapper .image {
   overflow: hidden;
   height: 100%;
+}
+.portfolio .item-wrapper .image-over {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  opacity: 0;
+  transition: all .25s ease-in-out;
+}
+.portfolio .item-wrapper .image-over:hover {
+  opacity: 0.95;
+  cursor: pointer;
 }
 
 body {
