@@ -7354,7 +7354,7 @@ button.close {
 .navbar-default
 .navbar-nav >
 .active > a:focus {
-  color: #FBBA5E;
+  color: #ED4D4D;
   background: white;
 }
 
@@ -7379,7 +7379,7 @@ button.close {
   }
 }
 .navbar.navbar-default li.active a {
-  color: #FBBA5E;
+  color: #ED4D4D;
   background: white;
 }
 .navbar.navbar-default li a {
@@ -7388,15 +7388,17 @@ button.close {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1rem;
+  transition: all .25s ease-in-out;
 }
 .navbar.navbar-default li a:hover {
   color: white;
-  background: #FBBA5E;
+  background: #ED4D4D;
 }
 @media (min-width: 768px) {
   .navbar.navbar-default li a:hover {
     background: white;
-    color: #FBBA5E;
+    color: #ED4D4D;
   }
 }
 @media (min-width: 768px) {
@@ -7416,7 +7418,7 @@ button.close {
   margin-top: 25px;
 }
 .navbar.navbar-default .navbar-toggle:hover {
-  background: #FBBA5E;
+  background: none;
 }
 .navbar.navbar-default .icon-bar {
   background-color: white;
@@ -7425,6 +7427,32 @@ button.close {
 }
 .navbar.navbar-default .icon-bar + .icon-bar {
   margin-top: 4.5px;
+}
+
+.modal-backdrop {
+  background: #1D2227;
+  opacity: 0.95 !important;
+}
+
+.modal-content {
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+.modal-content .modal-header {
+  border: none;
+}
+.modal-content .modal-body {
+  background: white;
+  border-radius: 10px;
+}
+
+.modal-dialog {
+  min-width: 800px !important;
+  margin: 40px auto;
+}
+.modal-dialog .project .image img {
+  width: 100%;
 }
 
 .home .intro {
@@ -7460,9 +7488,14 @@ button.close {
 .home .social a {
   color: #ED4D4D;
   border-top: 0.4rem solid transparent;
+  transition: all .25s ease-in-out;
+  border: 1px solid #191d21;
+  padding: 1rem 2rem;
+  margin: 0 1rem;
 }
 .home .social a:hover {
-  border-top: 0.4rem solid #FBBA5E;
+  border: 1px solid #1D2227;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.12);
   background: none;
 }
 .home .img-container {
@@ -7524,6 +7557,47 @@ button.close {
 }
 .resume .positions .card ul li:last-child {
   margin-bottom: 0;
+}
+
+.portfolio {
+  padding-top: 1rem;
+}
+.portfolio .item-wrapper {
+  background: #1D2227;
+  position: relative;
+  height: 250px;
+  margin-bottom: 2.5rem;
+  transition: all .25s ease-in-out;
+  border: 1rem solid #1D2227;
+}
+.portfolio .item-wrapper:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+}
+.portfolio .item-wrapper strong, .portfolio .item-wrapper p {
+  color: white;
+}
+.portfolio .item-wrapper p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.portfolio .item-wrapper .image {
+  overflow: hidden;
+  height: 100%;
+}
+.portfolio .item-wrapper .image-over {
+  background: #1D2227;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  opacity: 0;
+  transition: all .25s ease-in-out;
+}
+.portfolio .item-wrapper .image-over:hover {
+  opacity: 0.95;
+  cursor: pointer;
 }
 
 body {

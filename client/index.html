@@ -31,7 +31,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li ng-class="{ active: vm.isActive('/') }" ng-click="vm.toggleNav()"><a href="#/">Home</a></li>
                     <li ng-class="{ active: vm.isActive('/resume') }" ng-click="vm.toggleNav()"><a href="#/resume">Resume</a></li>
-                    <!--<li ng-class="{ active: vm.isActive('/portfolio') }"><a href="#/portfolio">Portfolio</a></li>-->
+                    <li ng-class="{ active: vm.isActive('/portfolio') }" ng-click="vm.toggleNav()"><a href="#/portfolio">Portfolio</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -53,10 +53,13 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-moment/angular-moment.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/angular-lazy-img/release/angular-lazy-img.js"></script>
 
     <!-- core -->
     <script src="app/app.module.js"></script>
     <script src="app/shared/NavBarCtrl.js"></script>
+    <script src="app/shared/ModalInstanceCtrl.js"></script>
 
     <!-- features -->
     <script src="app/home/HomeCtrl.js"></script>
@@ -64,6 +67,9 @@
 
     <script src="app/resume/ResumeCtrl.js"></script>
     <script src="app/resume/positionRepo.js"></script>
+
+    <script src="app/portfolio/PortfolioCtrl.js"></script>
+    <script src="app/portfolio/projectRepo.js"></script>
 
 </body>
 

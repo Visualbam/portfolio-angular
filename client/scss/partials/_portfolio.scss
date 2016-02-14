@@ -1,0 +1,48 @@
+.portfolio {
+    padding-top: 1rem;
+
+    .item-wrapper {
+        background: $lightnavy;
+        position: relative;
+        height: 250px;
+        margin-bottom: 2.5rem;
+        transition: all .25s ease-in-out;
+        border: 1rem solid $lightnavy;;
+
+        &:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+        }
+
+        strong, p {
+            color: white;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        }
+
+        .image {
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .image-over {
+            background: $lightnavy;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            padding: 2rem;
+            opacity: 0;
+            transition: all .25s ease-in-out;
+
+            &:hover {
+                opacity: 0.95;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

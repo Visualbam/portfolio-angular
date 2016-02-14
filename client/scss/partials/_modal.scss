@@ -1,0 +1,30 @@
+.modal-backdrop {
+    background: $lightnavy;
+    opacity: 0.95!important;
+}
+
+.modal-content {
+    box-shadow: none;
+    border: none;
+    background: none;
+
+    .modal-header {
+        border: none;
+    }
+
+    .modal-body {
+        background: white;
+        border-radius: 10px;
+    }
+}
+
+.modal-dialog {
+    min-width: 800px!important;
+    margin: 40px auto;
+
+    .project {
+        .image img {
+            width: 100%;
+        }
+    }
+}

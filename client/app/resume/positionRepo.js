@@ -7,7 +7,7 @@
     function positionRepo() {
         var positionRepo = {
             list: []
-        }
+        };
 
         positionRepo.list = [
             {
