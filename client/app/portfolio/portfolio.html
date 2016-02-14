@@ -6,7 +6,7 @@
                 <div class="image">
                     <img ng-src="{{project.image}}" alt="{{project.alt}}">
                 </div>
-                <div class="image-over">
+                <div class="image-over" ng-click="vm.open(project)">
                     <strong>{{project.title}}</strong>
                     <p>{{project.description}}</p>
                 </div>
