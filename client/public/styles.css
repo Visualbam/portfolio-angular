@@ -7434,12 +7434,22 @@ button.close {
   opacity: 0.95 !important;
 }
 
+.modal-content {
+  box-shadow: none;
+  border: none;
+  background: none;
+}
+.modal-content .modal-header {
+  border: none;
+}
+.modal-content .modal-body {
+  background: white;
+  border-radius: 10px;
+}
+
 .modal-dialog {
   max-width: 800px;
-  margin: 165px auto;
-}
-.modal-dialog h1, .modal-dialog h2, .modal-dialog h3, .modal-dialog h4, .modal-dialog h5, .modal-dialog h6 {
-  color: #1D2227;
+  margin: 120px auto;
 }
 .modal-dialog .project .image img {
   max-width: 800px;

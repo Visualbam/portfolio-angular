@@ -1,16 +1,26 @@
-
 .modal-backdrop {
     background: $lightnavy;
     opacity: 0.95!important;
 }
 
+.modal-content {
+    box-shadow: none;
+    border: none;
+    background: none;
+
+    .modal-header {
+        border: none;
+    }
+
+    .modal-body {
+        background: white;
+        border-radius: 10px;
+    }
+}
+
 .modal-dialog {
     max-width: 800px;
-    margin: 165px auto;
-
-    h1, h2, h3, h4, h5, h6 {
-        color: $lightnavy;
-    }
+    margin: 120px auto;
 
     .project {
         .image img {
