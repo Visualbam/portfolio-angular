@@ -1,0 +1,20 @@
+
+.modal-backdrop {
+    background: $lightnavy;
+    opacity: 0.95!important;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 165px auto;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: $lightnavy;
+    }
+
+    .project {
+        .image img {
+            max-width: 800px;
+        }
+    }
+}
