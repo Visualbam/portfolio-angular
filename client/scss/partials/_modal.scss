@@ -19,12 +19,12 @@
 }
 
 .modal-dialog {
-    max-width: 800px;
-    margin: 120px auto;
+    min-width: 800px!important;
+    margin: 40px auto;
 
     .project {
         .image img {
-            max-width: 800px;
+            width: 100%;
         }
     }
 }
