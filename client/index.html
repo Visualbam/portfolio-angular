@@ -46,6 +46,40 @@
         </div>
     </main>
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="footer-left">
+                        <a href="#/"><img src="./public/img/logo_2x.png" alt="Visualbam "></a>
+                        <ul>
+                            <li ng-class="{ active: vm.isActive('/') }" ng-click="vm.toggleNav()"><a href="#/">Home</a></li>
+                            <li ng-class="{ active: vm.isActive('/resume') }" ng-click="vm.toggleNav()"><a href="#/resume">Resume</a></li>
+                            <li ng-class="{ active: vm.isActive('/portfolio') }" ng-click="vm.toggleNav()"><a href="#/portfolio">Portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 footer-right">
+                    <p class="copyright">Bruce Aaron McElroy &copy; 2016</p>
+                    <ul class="social">
+                        <li role="presentation">
+                            <a href="https://www.facebook.com/bruce.a.mcelroy" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li role="presentation">
+                            <a href="https://www.linkedin.com/in/brucemcelroy" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        </li>
+                        <li role="presentation">
+                            <a href="https://dribbble.com/visualbam" target="_blank"><i class="fa fa-dribbble"></i></a>
+                        </li>
+                        <li role="presentation">
+                            <a href="https://github.com/Visualbam" target="_blank"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script src="bower_components/moment/moment.js"></script>

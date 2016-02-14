@@ -7429,6 +7429,89 @@ button.close {
   margin-top: 4.5px;
 }
 
+footer {
+  background-color: #1D2227;
+  padding: 5rem 1rem 2rem;
+  margin-top: 4rem;
+}
+footer .footer-left img {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width: 768px) {
+  footer .footer-left img {
+    margin: 0;
+  }
+}
+footer .footer-left ul {
+  padding: 0;
+  margin: 2rem 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  footer .footer-left ul {
+    text-align: left;
+  }
+}
+footer .footer-left ul li {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 1.5rem;
+}
+@media (min-width: 768px) {
+  footer .footer-left ul li:first-child {
+    margin-left: 0;
+  }
+}
+footer .footer-left ul li a {
+  color: #ED4D4D;
+}
+footer .footer-left ul li a:hover, footer .footer-left ul li a:focus {
+  text-decoration: none;
+}
+footer .footer-right .copyright {
+  font-size: 1.2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  footer .footer-right .copyright {
+    text-align: right;
+  }
+}
+footer .footer-right .social {
+  list-style: none;
+  padding: 0;
+  font-size: 3rem;
+  margin: 3rem auto 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  footer .footer-right .social {
+    text-align: right;
+    margin: 1rem auto 2rem;
+  }
+}
+footer .footer-right .social li {
+  flex: 1;
+  display: inline-block;
+}
+footer .footer-right .social a {
+  color: #ED4D4D;
+  border-top: 0.4rem solid transparent;
+  transition: all .25s ease-in-out;
+  border: 1px solid #191d21;
+  padding: 0.85rem 1.5rem;
+  width: 100%;
+  display: inline-block;
+}
+footer .footer-right .social a:hover {
+  border: 1px solid #1D2227;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.12);
+  background: none;
+}
+
 .modal-backdrop {
   background: #1D2227;
   opacity: 0.95 !important;
@@ -7492,17 +7575,29 @@ button.close {
 .home .social {
   display: flex;
   font-size: 3rem;
-  margin: 0 auto;
+  margin: 1rem auto 0;
   justify-content: center;
   box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .home .social {
+    margin: 1.85rem auto 0;
+  }
 }
 .home .social a {
   color: #ED4D4D;
   border-top: 0.4rem solid transparent;
   transition: all .25s ease-in-out;
   border: 1px solid #191d21;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   margin: 0 1rem;
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  .home .social a {
+    padding: 1rem 2rem;
+    font-size: 3rem;
+  }
 }
 .home .social a:hover {
   border: 1px solid #1D2227;

@@ -1,0 +1,93 @@
+footer {
+    background-color: $lightnavy;
+    padding: 5rem 1rem 2rem;
+    margin-top: 4rem;
+
+    .footer-left {
+        img {
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+
+            @media (min-width: $screen-sm-min) {
+                margin: 0;
+            }
+        }
+
+        ul {
+            padding: 0;
+            margin: 2rem 0;
+            text-align: center;
+
+            @media (min-width: $screen-sm-min) {
+                text-align: left;
+            }
+
+            li {
+                display: inline-block;
+                font-weight: bold;
+                margin: 0 1.5rem;
+
+                @media (min-width: $screen-sm-min) {
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            li a {
+                color: $secondary;
+
+                &:hover, &:focus {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .footer-right {
+        .copyright {
+            font-size: 1.2rem;
+            text-align: center;
+
+            @media (min-width: $screen-sm-min) {
+                text-align: right;
+            }
+        }
+
+        .social {
+            list-style: none;
+            padding: 0;
+            font-size: 3rem;
+            margin: 3rem auto 2rem;
+            box-sizing: border-box;
+            text-align: center;
+
+            @media (min-width: $screen-sm-min) {
+                text-align: right;
+                margin: 1rem auto 2rem;
+            }
+
+            li {
+                flex: 1;
+                display: inline-block
+            }
+
+            a {
+                color: $secondary;
+                border-top: 0.4rem solid transparent;
+                transition: all .25s ease-in-out;
+                border: 1px solid darken($color: $lightnavy, $amount: 2%);
+                padding: 0.85rem 1.5rem;
+                width: 100%;
+                display: inline-block;
+
+                &:hover {
+                    border: 1px solid $lightnavy;
+                    box-shadow: 0 10px 20px rgba(#000, .15), 0 6px 6px rgba(#000, .12);
+                    background: none;
+                }
+            }
+        }
+    }
+}
