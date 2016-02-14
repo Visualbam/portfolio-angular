@@ -7576,6 +7576,10 @@ button.close {
 .portfolio .item-wrapper strong, .portfolio .item-wrapper p {
   color: white;
 }
+.portfolio .item-wrapper p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
 .portfolio .item-wrapper .image {
   overflow: hidden;
   height: 100%;
