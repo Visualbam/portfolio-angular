@@ -19,7 +19,9 @@
 }
 
 .modal-dialog {
-    min-width: 800px!important;
+    @media (min-width: $screen-sm-min) {
+        min-width: 800px!important;
+    }
     margin: 40px auto;
 
     .project {
