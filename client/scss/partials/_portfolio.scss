@@ -7,9 +7,14 @@
         height: 250px;
         margin-bottom: 2.5rem;
         transition: all .25s ease-in-out;
+        border: 1rem solid $lightnavy;;
 
         &:hover {
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+        }
+
+        strong, p {
+            color: white;
         }
 
         .image {
@@ -18,7 +23,7 @@
         }
 
         .image-over {
-            background: white;
+            background: $lightnavy;
             position: absolute;
             top: 0;
             left: 0;

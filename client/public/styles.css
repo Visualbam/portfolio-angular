@@ -7542,16 +7542,20 @@ button.close {
   height: 250px;
   margin-bottom: 2.5rem;
   transition: all .25s ease-in-out;
+  border: 1rem solid #1D2227;
 }
 .portfolio .item-wrapper:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+}
+.portfolio .item-wrapper strong, .portfolio .item-wrapper p {
+  color: white;
 }
 .portfolio .item-wrapper .image {
   overflow: hidden;
   height: 100%;
 }
 .portfolio .item-wrapper .image-over {
-  background: white;
+  background: #1D2227;
   position: absolute;
   top: 0;
   left: 0;
