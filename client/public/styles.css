@@ -7458,6 +7458,13 @@ button.close {
 .modal-dialog .project .image img {
   width: 100%;
 }
+.modal-dialog .close {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  color: white;
+  font-size: 3rem;
+}
 
 .home .intro {
   background: #1D2227;
@@ -7588,6 +7595,12 @@ button.close {
   overflow: hidden;
   height: 100%;
 }
+.portfolio .item-wrapper .image img {
+  width: 100%;
+}
+.portfolio .item-wrapper .image img.success {
+  width: 165%;
+}
 .portfolio .item-wrapper .image-over {
   background: #1D2227;
   position: absolute;
@@ -7599,9 +7612,11 @@ button.close {
   opacity: 0;
   transition: all .25s ease-in-out;
 }
-.portfolio .item-wrapper .image-over:hover {
-  opacity: 0.95;
-  cursor: pointer;
+@media (min-width: 768px) {
+  .portfolio .item-wrapper .image-over:hover {
+    opacity: 0.95;
+    cursor: pointer;
+  }
 }
 
 body {

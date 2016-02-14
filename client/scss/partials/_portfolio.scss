@@ -25,6 +25,14 @@
         .image {
             overflow: hidden;
             height: 100%;
+
+            img {
+                width: 100%;
+            }
+
+            img.success {
+                width: 165%;
+            }
         }
 
         .image-over {
@@ -38,9 +46,11 @@
             opacity: 0;
             transition: all .25s ease-in-out;
 
-            &:hover {
-                opacity: 0.95;
-                cursor: pointer;
+            @media (min-width: $screen-sm-min) {
+                &:hover {
+                    opacity: 0.95;
+                    cursor: pointer;
+                }
             }
         }
     }
