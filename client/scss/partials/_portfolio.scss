@@ -26,12 +26,16 @@
             overflow: hidden;
             height: 100%;
 
-            img {
+            img, img.logo {
                 width: 100%;
             }
 
             img.success {
                 width: 165%;
+
+                &.logo {
+                    width: 100%;
+                }
             }
         }
 

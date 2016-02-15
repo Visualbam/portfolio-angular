@@ -7527,7 +7527,7 @@ footer .footer-right .social a:hover {
 }
 .modal-content .modal-body {
   background: white;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .modal-dialog {
@@ -7536,6 +7536,14 @@ footer .footer-right .social a:hover {
 @media (min-width: 768px) {
   .modal-dialog {
     min-width: 800px !important;
+  }
+}
+.modal-dialog h3 {
+  max-width: 250px;
+}
+@media (min-width: 768px) {
+  .modal-dialog h3 {
+    width: 100%;
   }
 }
 .modal-dialog .project .image img {
@@ -7690,11 +7698,14 @@ footer .footer-right .social a:hover {
   overflow: hidden;
   height: 100%;
 }
-.portfolio .item-wrapper .image img {
+.portfolio .item-wrapper .image img, .portfolio .item-wrapper .image img.logo {
   width: 100%;
 }
 .portfolio .item-wrapper .image img.success {
   width: 165%;
+}
+.portfolio .item-wrapper .image img.success.logo {
+  width: 100%;
 }
 .portfolio .item-wrapper .image-over {
   background: #1D2227;
