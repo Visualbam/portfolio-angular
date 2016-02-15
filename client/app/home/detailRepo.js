@@ -18,7 +18,7 @@
             },
             {
                 title: 'Development',
-                content: 'Developing has become a passion of mine. I keep up with the latest frameworks and technologies to keep a proffesional advantage in my work.',
+                content: 'Developing has become a passion of mine. I keep up with the latest frameworks and technologies to keep a professional advantage in my work.',
                 image: './public/img/develop.png'
             },
             {

@@ -22,7 +22,7 @@
                 title: 'Lucky Fun Colors Controls',
                 alt: 'Lucky fun colors card game controls and footer',
                 image: 'public/img/portfolio/lfc_bottom.png',
-                description: 'Lucky fun colors is a card game using bitcoin as a currency. The idea was to make the controls as prominenant as possible to really put emphasis on continueing to place bets.',
+                description: 'Lucky fun colors is a card game using bitcoin as a currency. The idea was to make the controls as prominent as possible to really put emphasis on continuing to place bets.',
                 tags: []
             },
             {
@@ -85,7 +85,7 @@
                 title: 'Open Book Pittsburgh contract list',
                 alt: 'List of city contracts',
                 image: 'public/img/portfolio/ob_list.png',
-                description: 'Organizing the contributers in the Open Book Pittsburgh search was really fun. I strayed away from the traditional table layout.',
+                description: 'Organizing the contributors in the Open Book Pittsburgh search was really fun. I strayed away from the traditional table layout.',
                 tags: []
             },
             {
@@ -104,7 +104,7 @@
             },
             {
                 title: 'PPG Industries Career Portal Details',
-                alt: 'PPG Industries career portal deatil page',
+                alt: 'PPG Industries career portal detail page',
                 image: 'public/img/portfolio/ppg_career_detail.png',
                 description: 'A career portal detail page. I really liked having the summary being so prominent on the page.',
                 tags: []
@@ -155,7 +155,7 @@
                 title: 'Voice of Color Home Page',
                 alt: 'Voice of color home page design and slider',
                 image: 'public/img/portfolio/ppg_voc_homepage.png',
-                description: 'One of many layouts for The Voice of Color home page. This wasnt used in producntion as is but coming up with how the slider should work was an experience.',
+                description: 'One of many layouts for The Voice of Color home page. This wasnt used in production as is but coming up with how the slider should work was an experience.',
                 tags: []
             },
             {
