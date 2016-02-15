@@ -17,17 +17,17 @@
                 image: 'public/img/portfolio/gobucket_detail.png',
                 description: 'A detail shot for go bucket, this is more of a wireframe for how the sign up form should be displayed.'
             },
-            // {
-            //     title: 'Go Bucket Landing Page',
-            //     alt: 'Go bucket navigation and call to action header',
-            //     image: 'public/img/portfolio/gobucket_header.png',
-            //     description: ''
-            // },
             {
                 title: 'Lucky Fun Colors Controls',
                 alt: 'Lucky fun colors card game controls and footer',
                 image: 'public/img/portfolio/lfc_bottom.png',
                 description: 'Lucky fun colors is a card game using bitcoin as a currency. The idea was to make the controls as prominenant as possible to really put emphasis on continueing to place bets.'
+            },
+            {
+                title: 'Creative Robot',
+                alt: 'Creative robot logo',
+                image: 'public/img/portfolio/creative_logo.png',
+                description: 'A logo done for a friend. It was fun drawing expressional eyes for the robot.'
             },
             {
                 title: 'Lucky Fun Colors',
@@ -41,12 +41,12 @@
                 image: 'public/img/portfolio/machovy_blog_detail.png',
                 description: 'A blog post page for machovy. I wanted the post image to really stand out.'
             },
-            // {
-            //     title: 'Machovy Blog Recommended Products',
-            //     alt: 'Machovy blog recommended products',
-            //     image: 'public/img/portfolio/machovy_blog_recent.png',
-            //     description: ''
-            // },
+            {
+                title: 'Flatship Logo',
+                alt: 'Flatship Logo',
+                image: 'public/img/portfolio/flatship_logo.png',
+                description: 'One of my first logo bid concepts!'
+            },
             {
                 title: 'Machovy Product Detail Concept',
                 alt: 'Machovy product detail page with price and details',
@@ -78,6 +78,12 @@
                 description: 'Organizing the contributers in the Open Book Pittsburgh search was really fun. I strayed away from the traditional table layout.'
             },
             {
+                title: 'Pixelspot Logo',
+                alt: 'Pixelspot Logo',
+                image: 'public/img/portfolio/pixelspot_logo.png',
+                description: 'The idea was to show the creative process of designing logos which was the core concept of the group.'
+            },
+            {
                 title: 'Open Book Pittsburgh contract search and filter',
                 alt: 'Concept for open book pittsburgh contract search and filter',
                 image: 'public/img/portfolio/ob_search.png',
@@ -88,6 +94,12 @@
                 alt: 'PPG Industries career portal deatil page',
                 image: 'public/img/portfolio/ppg_career_detail.png',
                 description: 'A career portal detail page. I really liked having the summary being so prominent on the page.'
+            },
+            {
+                title: 'Pots for Paws Logo',
+                alt: 'Pots for Paws logo',
+                image: 'public/img/portfolio/pots_for_paws_logo.png',
+                description: 'Pots for Paws is a local Pittsburgh non profit to where funds made from the pots were donated to an animal charity.'
             },
             {
                 title: 'PPG Industries Career Portal List',
@@ -113,12 +125,12 @@
                 image: 'public/img/portfolio/ppg_newsletter.png',
                 description: 'Newsletter for The Voice of Color, this wasnt used but it was really fun coming up with the color scheme. The social icons could have been less bold though.'
             },
-            // {
-            //     title: 'Olympic Paint and Stains password reset email',
-            //     alt: 'Olympic Paint and Stains password reset email',
-            //     image: 'public/img/portfolio/ppg_olympic_email.png',
-            //     description: ''
-            // },
+            {
+                title: 'Panacea Pharmacy Logo',
+                alt: 'Panacea Pharmacy Logo',
+                image: 'public/img/portfolio/pp_logo.png',
+                description: 'I created this logo for a client in Lebanon the country.'
+            },
             {
                 title: 'Voice of Color Home Page',
                 alt: 'Voice of color home page design and slider',
@@ -132,10 +144,22 @@
                 description: 'Belly buster poster for PTI student events. The font treatment was done to represent being filled. I kept the yellow color from the mustard for repetition.'
             },
             {
+                title: 'Prenulin Logo',
+                alt: 'Prenulin Logo',
+                image: 'public/img/portfolio/prenulin_logo.png',
+                description: 'One of many.. many concepts.'
+            },
+            {
                 title: 'PTI 2011 Calendar Header',
                 alt: 'PTI 2011 Calendar header',
                 image: 'public/img/portfolio/pti_calendar.png',
                 description: 'One of my first projects when I was a Visual Communications Assistant. This calendar was a great project to show off my photoshop skill.'
+            },
+            {
+                title: 'Viva Verde Logo',
+                alt: 'Viva Verde Logo',
+                image: 'public/img/portfolio/viva_logo.png',
+                description: 'Logo concept.'
             },
             {
                 title: 'PTI Carnival Poster',
@@ -150,6 +174,12 @@
                 description: 'Very basic layout that uses a simple typography treatment.'
             },
             {
+                title: 'Visualbam Logo',
+                alt: 'Visualbam logo',
+                image: 'public/img/portfolio/visualbam_old_logo.png',
+                description: 'One of my older logo concepts.'
+            },
+            {
                 title: 'PTI ESOP Invitation',
                 alt: 'PTI ESOP Invitation',
                 image: 'public/img/portfolio/pti_esop.png',
@@ -160,6 +190,12 @@
                 alt: 'PTI Fall Festival Poster',
                 image: 'public/img/portfolio/pti_fallfestival.png',
                 description: 'The Fall Festival was hosted by the school library. The birds represent free knowledge.'
+            },
+            {
+                title: 'Tap Logo',
+                alt: 'Tap Logo',
+                image: 'public/img/portfolio/tap2_logo.png',
+                description: 'A concept for a personal project called TAP.'
             },
             {
                 title: 'PTI Head Start Sign',
@@ -186,6 +222,12 @@
                 description: 'Outstanding students were celebrated each quarter. I wanted to represent the growth of the students using a large tree with very clean and legible text.'
             },
             {
+                title: 'Tap Logo',
+                alt: 'Tap Logo',
+                image: 'public/img/portfolio/tap1_logo.png',
+                description: 'A concept for a personal project called TAP.'
+            },
+            {
                 title: 'PTI Rocky Horror Picture Show Poster',
                 alt: 'PTI Rocky Horror Picture Show Poster',
                 image: 'public/img/portfolio/pti_rvhps.png',
@@ -198,6 +240,12 @@
                 description: 'I think this needs a few more four leaf clovers.'
             },
             {
+                title: 'Scrum and Coke Logo',
+                alt: 'Scrum and Coke Logo',
+                image: 'public/img/portfolio/scrum_logo.png',
+                description: 'Scrum and coke was the name of my scrum team at Branding Brand. We had shirts made as well.'
+            },
+            {
                 title: 'PTI Summer Camp Display',
                 alt: 'PTI Summer Camp Display',
                 image: 'public/img/portfolio/pti_summercamp.png',
@@ -208,6 +256,12 @@
                 alt: 'PTI Welcome Students Display',
                 image: 'public/img/portfolio/pti_welcome.png',
                 description: 'Although cliche, using the torn green board was very effective.'
+            },
+            {
+                title: 'Reward Recognition Logo',
+                alt: 'Reward Recognition Logo',
+                image: 'public/img/portfolio/reward_logo.png',
+                description: 'An internal logo done while I was at PPG. It was used for a rewards program for employees'
             }
         ];
 
