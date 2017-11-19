@@ -21,5 +21,5 @@ app.use(express.static(path.join(__dirname + '/client')));
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 
 app.listen(port, function () {
-    console.log('Currently pooping... content');
+    console.log('Currently pooping... content', port);
 });
